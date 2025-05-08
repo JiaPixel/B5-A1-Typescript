@@ -66,11 +66,12 @@ In modern software development, code quality and project maintainability are cru
 One of TypeScript’s biggest advantages is static type checking. This helps developers catch errors at compile time rather than runtime.
 Example:
 
-```function add(x: number, y: number): number {
+```ts
+function add(x: number, y: number): number {
   return x + y;
 }
 
-console.log(add("5", 10)); // ❌ Error: Argument of type 'string' is not assignable to type 'number'.
+console.log(add("5", 10)); // ❌ Error: Argument of type 'string' is not assignable to type 'number'.```
 
 Without TypeScript, JavaScript would allow the above function call and throw an error only when executed. TypeScript prevents this before execution, reducing debugging time and ensuring correctness.
 2. Improved Code Readability and Documentation
