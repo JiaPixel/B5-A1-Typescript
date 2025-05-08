@@ -66,7 +66,7 @@ In modern software development, code quality and project maintainability are cru
 One of TypeScript’s biggest advantages is static type checking. This helps developers catch errors at compile time rather than runtime.
 Example:
 
-function add(x: number, y: number): number {
+```function add(x: number, y: number): number {
   return x + y;
 }
 
